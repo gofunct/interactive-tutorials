@@ -48,7 +48,8 @@ Within the scenario index.json file, the imageid can be defined under the backen
 </p>
 </details>
 
-## # Understanding Katacoda's index.json
+## Understanding Katacoda's index.json
+
 <details><summary>show</summary>
 <p>
 
@@ -195,6 +196,7 @@ To display a tab called App showing the port 8080 from the host host02:
 <\details>
 
 ## Markdown Syntax
+
 <details><summary>show</summary>
 <p>
 
@@ -232,6 +234,7 @@ server.listen(3000, function() { console.log("Listening on port 3000")});
 </details>
 
 ## Displaying Web UI and Accessing Ports
+
 <details><summary>show</summary>
 <p>
 
@@ -259,6 +262,7 @@ https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/
 </details>
 
 ##  Running commands to customise environment
+
 <details><summary>show</summary>
 <p>
 
