@@ -1,0 +1,29 @@
+{
+  "title": "Deploying Github Issue Summarization with Kubeflow",
+  "description": "Learn how to deploy Kubeflow workloads to a Kubernetes cluster",
+  "details": {
+    "steps": [
+      { "title": "Deploying Kubeflow", "text": "step-deploying-kubeflow.md" },
+      { "title": "Training Model", "text": "training.md" },
+      { "title": "Serving Model", "text": "serving.md" },
+      { "title": "Querying Model", "text": "querying.md" }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "foreground-init.sh",
+      "courseData": "env-init.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Jupyterhub", "port": 80}, {"name": "Ambassador", "port": 30080}]
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeflow",
+    "port": 30080
+  }
+}

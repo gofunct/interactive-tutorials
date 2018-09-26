@@ -1,0 +1,43 @@
+{
+  "title": "Deploying PyTorch with Kubeflow",
+  "description": "Learn how to run PyTorch using Kubernetes and Kubeflow",
+  "details": {
+    "steps": [
+      {
+        "title": "Deploy Kubeflow",
+        "text": "step-deploying-kubeflow.md"
+      },
+      {
+        "title": "Deploy PyTorch Extension",
+        "text": "step2.md"
+      },
+      {
+        "title": "Deploy PyTorch Workload",
+        "text": "step3.md"
+      },
+      {
+        "title": "View Progress",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "foreground-init.sh",
+      "courseData": "env-init.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "example.yaml", "target": "/root"}
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeflow"
+  }
+}
