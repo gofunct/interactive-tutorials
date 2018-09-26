@@ -192,8 +192,8 @@ To display a tab called App showing the port 8080 from the host host02:
 }
 ```
  
-<\p>
-<\details>
+</p>
+</details>
 
 ## Markdown Syntax
 
