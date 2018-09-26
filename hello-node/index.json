@@ -1,7 +1,7 @@
 {
     "icon": "fa-node",
-    "title": "Scenario with Editor UI",
-    "description": "Katacoda Scenario Example",
+    "title": "Hello World in Nodejs",
+    "description": "Use as a playground!",
     "authenticated": false,
     "details": {
         "steps": [
